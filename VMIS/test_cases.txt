@@ -1,0 +1,39 @@
+# Test Case 1
+Input:
+  Name: Ramesh
+  Email: ramesh@example.com
+  Feedback: Very helpful system!
+Expected Output:
+  Success message
+
+# Test Case 2
+Input:
+  Name: (empty)
+  Email: priya@example.com
+  Feedback: Useful platform
+Expected Output:
+  Error - All fields required
+
+# Test Case 3
+Input:
+  Name: Anjali
+  Email: anjali(at)gmail.com
+  Feedback: Good interface
+Expected Output:
+  Error - Invalid email address
+
+# Test Case 4
+Input:
+  Name: Vikram
+  Email: vikram123@gmail.com
+  Feedback: Loved the simplicity of the form!
+Expected Output:
+  Success message
+
+# Test Case 5
+Input:
+  Name: Sita
+  Email: (empty)
+  Feedback: Easy to use
+Expected Output:
+  Error - All fields required
